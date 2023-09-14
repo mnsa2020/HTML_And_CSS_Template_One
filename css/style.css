@@ -94,8 +94,15 @@ header .container {
     justify-content: space-between;
     align-items: center;
 }
+header .container a {
+    font-family: var(--main-font);
+    font-weight: bold;
+    color: var(--main-color);
+    font-size: 20px;
+}
 header .logo {
-    width: 60px;
+    width: 40px;
+    /* height: 24px; */
 }
 header nav {
     position: relative;
@@ -265,7 +272,7 @@ header nav ul li:not(:last-child) a {
     height: calc(100% + 80px);
     top: -50px;
     position: absolute;
-    right: 0;
+    right: 40px;
     z-index: -1;
 }
 .services .col .image::after {
@@ -275,7 +282,7 @@ header nav ul li:not(:last-child) a {
     height: calc(100% + 100px);
     top: -50px;
     position: absolute;
-    right: -20px;
+    right: 20px;
     z-index: -2;
 }
 .services .col .image img {
@@ -412,6 +419,7 @@ header nav ul li:not(:last-child) a {
     font-weight: 800;
     font-size: 30px;
     color: var(--main-color);
+    font-family: var(--main-font);
 }
 .contact .social {
     display: flex;
